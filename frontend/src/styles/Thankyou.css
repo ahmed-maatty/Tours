@@ -1,0 +1,14 @@
+.thank-you-icon {
+    font-size: 3.5rem;
+    color: green;
+}
+
+.thank-title {
+    font-family: var(--subtitle-font-name);
+    font-size: 3.7rem;
+    font-weight: 700;
+}
+
+.btn a:hover {
+    color: white !important;
+}

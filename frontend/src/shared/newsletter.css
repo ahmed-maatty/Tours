@@ -1,0 +1,43 @@
+.newsLetter {
+    background-color: #cae5f4;
+}
+
+.news-letter-img img {
+    width: 100%;
+}
+
+.newsletter-title {
+    font-size: 2.2rem;
+    margin: 1.7rem 0;  
+    letter-spacing: 1px;
+}
+
+.newsletter-subscribe {
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.newsletter-subscribe input {
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+.newsletter-btn{
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.1em !important;
+    letter-spacing: 1px;
+    width: 20%;
+}
+
+.newsLetter p {
+    color: var(--text-color);
+    margin-top: 1rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+}

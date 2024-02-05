@@ -1,0 +1,76 @@
+.login-container,.register-container {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 18px 50px -10px;
+}
+
+.loginImg {
+    width: 60%;
+}
+
+.loginImg img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.login-field , .register-field {
+    background: var(--secondary-color);
+    width: 40%;
+    position: relative;
+}
+
+.login-field  {
+    padding: 5.6rem 0;
+}
+
+
+.user-icon-login-field {
+    width: 80px ;
+    height: 80px;
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.user-icon-login-field img {
+    width: 100%;
+}
+
+.login-field h2{
+    text-align: center;
+    margin: 1.5rem 0;
+    color: white;
+}
+
+.login-field input {
+    padding: 10px ;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+    background-color: #fff;
+}
+
+.login-btn {
+    width: 80%;
+    margin: 0 auto;
+    display: block !important;
+    background: var(--heading-color) !important;
+}
+
+.register{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.register-new-account {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.register-new-account a {
+    color: var(--heading-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
