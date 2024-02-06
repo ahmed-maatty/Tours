@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Domain = axios.create({
-    baseURL:"http://localhost:4000",
+    baseURL:"https://tours-server.onrender.com",
 })
 
 export default Domain ;
