@@ -32,7 +32,7 @@ const Booking = ({tour}) => {
     const navigate = useNavigate();
 
     const serviceFee = 10 ;
-    const totalAmount = Number(price) * Number(book.bookAt) + Number(serviceFee) ;
+    const totalAmount = parseInt( Number(price) * Number(book.guestSize) + Number(serviceFee));
 
     const submitHandler = (e) => {
         e.preventDefault();
