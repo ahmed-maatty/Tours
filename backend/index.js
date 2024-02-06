@@ -32,7 +32,7 @@ const DBConnection = async ()=>{
 
 app.use(express.json());
 app.use(cors({
-    origin: true,
+    origin: "http://localhost:3000",
     credentials:true
 }));
 app.use(cookieParser());

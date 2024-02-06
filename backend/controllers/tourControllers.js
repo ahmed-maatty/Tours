@@ -22,7 +22,8 @@ export const getAllTours = async ( req , res ) => {
         .status(404)
         .json({ 
             success : false , 
-            message : "There Is No Tour Right Now !" 
+            message : "There Is No Tour Right Now !",
+            error
         });
     }
 }
